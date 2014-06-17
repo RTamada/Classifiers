@@ -71,7 +71,7 @@ https://ideone.com/
 
 おすすめの入門 http://dotinstall.com/lessons/basic_javascript_v2
 
-JSで作った線形識別器
+JSで作った線形識別器(準備中)
 
 ## D言語
 
