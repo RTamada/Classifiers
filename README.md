@@ -3,32 +3,51 @@ GitHub入門
 〜人力バックアップはやめよう〜
 
 
-次の行程で一通り
+最初によんでください：http://samura1.net/2012/10/github_first/
+アカウント作ったらLINEとかでいいのでKaritaまで
+このレポジトリの共同作業者に追加します
 
-1. アカウント作る
-2. レポジトリ test を作る(右上の+ボタン)
+基本的にCUIで説明します。
+GUIがいい人はSourceTreeとかでググってください（おわり
 
+
+CUIだと次の行程
+
+1. アカウント作る、Windowsの人は下記を入れて設定してください
+参考 http://yuheikagaya.hatenablog.jp/entry/2012/12/11/224216
+2. このレポジトリをクローンする
 ```
-touch README.md
-(中略)
-git push -u origin master
-```
-こんなのがでてくるのでメモしとく
-
-3. Windowsの人はGit Bashなり入れてください
-http://yuheikagaya.hatenablog.jp/entry/2012/12/11/224216 これの6.あたりまでやってみる
-
-3. 先のコマンドにしたがいファイルをアップロードする 参考：http://za.toypark.in/html/2009/02-19.html
-4. READMEを編集
-5. 変更をpushする
-
-```
-git add --all   # git add ファイル名でもよい
-git commit -m'Revise README'
-git push origin master # サーバーにあがる
+cd 適当なフォルダ
+git clone https://github.com/ShigekiKarita/Classifiers.git
 ```
 
-6. もう一回変更、pushしたものを一個前のcommitに復元してみる
-7. 任意：このレポジトリに自分のファイルを pull request してみる
+3. 自分でレポジトリをつくる（右上の+ボタン
+5. でてきたページのコマンドで適当なフォルダ作って試す（READMEができるはず
 
 
+だいたいいつもの更新用のコマンド
+```
+git add --all   # git add ファイル名 で個別にあげてもよい
+git commit -m 'なにかひとこと' # 復元する時に思い出せるように
+git push origin master # GitHubにあがる
+```
+
+応用
+1. 前のコミットからファイルを復元してみる
+2. Karitaから返信がきたらこのレポジトリに適当なファイルをpushしてみる
+
+
+
+D言語入門
+〜C++とか面倒だった〜
+
+丸投げ： https://github.com/k3kaimu/d-manual
+プログラミング環境ない人もいると思うので、インストールとかC言語よりはるかに楽なので、おすすめ
+別に言語はなんでも良いと思いますが、C言語みたことあればわかる（たぶん）。
+むしろmallocとかポインタとか面倒なものは使わずにすみます。
+Visual Studioを使ってるひとは便利なプラグインがあるのでぜひ http://www.dsource.org/projects/visuald
+
+
+
+連絡先
+shigekikarita@gmail.com
