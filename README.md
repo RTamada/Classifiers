@@ -13,8 +13,7 @@ GUIがいい人はSourceTreeとかでググってください（おわり
 
 CUIだと次の行程
 
-1. アカウント作る、Windowsの人は下記を入れて設定してください
-参考 http://yuheikagaya.hatenablog.jp/entry/2012/12/11/224216
+1. アカウント作る、色々入れて設定してください http://yuheikagaya.hatenablog.jp/entry/2012/12/11/224216 (6まで)
 2. このレポジトリをクローンする
 ```
 cd 適当なフォルダ
@@ -36,9 +35,9 @@ git push origin master # GitHubにあがる
 1. 前のコミットからファイルを復元してみる
 2. Karitaから返信がきたらこのレポジトリに適当なファイルをpushしてみる
 
+---
 
-
-D言語入門
+# D言語入門
 〜C++とか面倒だった〜
 
 丸投げ： https://github.com/k3kaimu/d-manual
