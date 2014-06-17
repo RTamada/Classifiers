@@ -7,12 +7,14 @@ GitHub入門
 
 1. アカウント作る
 2. レポジトリ test を作る(右上の+ボタン)
+
 ```
 touch README.md
 (中略)
 git push -u origin master
 ```
 こんなのがでてくるのでメモしとく
+
 3. Windowsの人はGit Bashなり入れてください
 3. 上のコマンドにしたがいファイルをアップロードする 参考：http://za.toypark.in/html/2009/02-19.html
 4. READMEを編集
