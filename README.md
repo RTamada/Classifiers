@@ -16,14 +16,14 @@ git push -u origin master
 こんなのがでてくるのでメモしとく
 
 3. Windowsの人はGit Bashなり入れてください
-3. 上のコマンドにしたがいファイルをアップロードする 参考：http://za.toypark.in/html/2009/02-19.html
+http://yuheikagaya.hatenablog.jp/entry/2012/12/11/224216 これの6.あたりまでやってみる
+
+3. 先のコマンドにしたがいファイルをアップロードする 参考：http://za.toypark.in/html/2009/02-19.html
 4. READMEを編集
 5. 変更をpushする
 
 ```
-# git status  変更のあったファイル名が赤く表示されて確認できる
 git add --all   # git add ファイル名でもよい
-# git status  緑になったことを確認
 git commit -m'Revise README'
 git push origin master # サーバーにあがる
 ```
