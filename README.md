@@ -5,8 +5,7 @@
 前回の反省点はコードをみんなで管理しなかった点~~とLINE~~にあると思います。そこでGitHubです。
 
 1. 最初によんでください：http://samura1.net/2012/10/github_first/
-2. アカウント作ったら[Issues](https://github.com/ShigekiKarita/Classifiers/issues)に書き込んでください。今後なにか質問・相談があればここで
-このレポジトリの共同作業者に追加します
+2. アカウント作ったら[Issues](https://github.com/ShigekiKarita/Classifiers/issues)に書き込んでください。このレポジトリの共同作業者に追加します。今後なにか質問・相談があればここで
 3. 基本的にCUIで説明します。GUIがいい人はSourceTreeとかでググってください（おわり
 
 
